@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import * as cheerio from 'cheerio';
+import * as cheerio from 'cheerio/slim';
 import { nanoid } from 'nanoid';
 
 import { db } from '@/lib/db';
